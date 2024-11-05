@@ -5,39 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografia</title>
     <link rel="stylesheet" href="style/estil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
-<body style="margin:0">
+<body id="body">
     <div class="logo">
-        <a class="link" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Biografia.html">Adrià Vidal</a>
+        <a class="link" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Biografia.html" id="main">Adrià Vidal</a>
         <a class="link" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Aficiones.html">Aficiones</a>
         <a class="link" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Mascotas.html">Mascotas</a>
-        <a class="link" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Futuro.html">Hobbies</a>
-        <a class="link" id="login" href="#">Login</a>
+        <a class="link" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Futuro.html">Futuro</a>
+        <a class="link" id="login" href="file:///C:/Users/pc/Desktop/PiTDII/HTML/Protecto-final-HTML/Login.html">Login</a>
     </div>
-    <div class="header">
-        <h1 style="margin-bottom: -2%;">Adrià Vidal Ruiz</h1>
-        <p>Estudiant IES MARRATXÍ</p>
-        <button style="margin-top: 5%;">Saber més</button>
+    <div class="header" id="mainh">
+        <h1 id="títol" class="titol">Adrià Vidal Ruiz</h1>
+        <p  class="titol">Estudiant IES MARRATXÍ</p>
+        <a href="#anchor"><button id="button">Saber més</button></a>
     </div>
-    <div class="row1">
+    <div class="row1" id="anchor">
         <div class="text">
-        <h2>Qui soc?</h2>
-        <p>aaaaaa</p>
+        <h2 class="titol">Qui soc?</h2>
+        <p>Jo soc n'Adrià Vidal Ruiz. A aquesta página web (la qual estic obligat a fer) podreu aprendre una miqueta sobre jo</p>
         </div>
         <div>
             <img src="images/rat.jpg" alt="Placeholder">
         </div>
     </div>
-    <div class="row2">
+    <div class="row2" id="b2">
         <div>
             <img src="images/rat.jpg" alt="Placeholder">
         </div>
-        <div class="text">
-            <h2>Que faig?</h2>
-            <p>aaaaaa</p>
+        <div class="text" id="text2">
+            <h2 class="titol">Que faig?</h2>
+            <p>Ara mateix estic estudiant un segon de Batxillerat a l'institut de l'IES MARRATXÍ, encara que no vull estudiar a l'Universitat</p>
         </div>
     </div>  
+ 
+    <div class="row3" id="b3">
+        <div id="columns"  class="text">
+            <h2 class="titol">Quan vaig nèixer?</h2>
+            <p>Al 24 / 09 / 2007.</p>
+        </div>
+        <div id="columns"  class="text">
+            <h2 class="titol">Tinc germans?</h2>
+            <p>Si, tinc un germà major que jo.</p>
+        </div>
+        <div id="columns"  class="text">
+            <h2 class="titol">Que fan els teus pares?</h2>
+            <p>Tots dos són panaders.</p>
+        </div>
+    </div>
 
+    <div class="row4" id="b4">
+        <div class="text" id="stat">
+            <h2 class="titol">Que vull treure d'aquest treball?</h2>
+            <p id="percent">100%</p>
+        </div>
+    </div>
+    <hr>
+    <div class="finish">
+        <div id="infringement">
+            <div id="socials" class="finaltext">
+                <a href="https://www.instagram.com" class="social"><img src="images/insta.png" class="sociallogo" alt="instagram logo"></a>
+                <a href="https://www.twitter.com" class="social"><img src="images/twitter.png" class="sociallogo" alt="twitter logo"></a>
+                <a href="https://www.tiktok.com" class="social"><img src="images/tiktok.webp" class="sociallogo" alt="tiktok logo"></a>
+                <a href="https://www.facebook.com" class="social"><img src="images/facebook.webp" class="sociallogo" alt="facebook logo"></a>
+            </div>
+            <div id="longtext">
+                <p>Copyright refers to a branch of intellectual property law that aims to protect creations such as books, music and art.
+                    <br/><br/>
+                    When you create something new, copyright law automatically gives you full ownership rights in your creation.
+                    <br/><br/>
+                    For example, if you write a screenplay, novel, or even a blog post, you've just created something new. Once you put that creation out into the world and allow the public to access it, copyright law kicks in to help make sure that someone else can't steal a part of (or all of) your creation.
+                    <br/><br/>
+                    If someone does do something to violate your copyright, like copy your blog post and attribute it to himself, or try to claim authorship of your screenplay, copyright law makes it possible for you to enforce your rights against the other and maintain your ownership.</p>
+            </div>
+        </div>
+        <hr>
+        <div id="copy" class="finaltext">
+            <p>Copyright © 2024 Skibidi, Inc.</p>
+        </div>
+    </div>
 </body>
 </html>
