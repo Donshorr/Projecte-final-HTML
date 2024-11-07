@@ -24,6 +24,9 @@
 .titol {
     font-family: "DM Serif Text", serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 #mainh {
     background-image: linear-gradient(to bottom right, indigo 1%,red 80%);
 }
@@ -49,6 +52,12 @@
 #body {
     margin: 0;
     background-color: rgb(249, 219, 194);
+    font-family: "Markazi Text", serif;
+}
+#bodyf {
+    margin: 0;
+    background-color: rgb(249, 219, 194);
+    background-image: url("/images/linea.png");
     font-family: "Markazi Text", serif;
 }
 #nom {
@@ -102,6 +111,7 @@
     flex-direction: column;
     align-items: center;
     border: solid rgb(159, 154, 127);
+    background-color: rgb(159, 154, 127,.5);
 }
 #columns {
     border: solid rgb(159, 154, 127);
@@ -109,7 +119,18 @@
     margin: 1%;
     padding: 2%;
 }
+#text1m {
+    background-color: rgb(210, 176, 162);
+    border-radius: 10px;
+    padding: 1%;
+}
+#img1m {
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
 #img2m {
+    margin-right: 10%;
     display: flex;
     justify-content: flex-end;
 }
@@ -143,6 +164,16 @@
     margin: 2%;
     color: white;
     width: 50%;
+}
+.row1f {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2%;
+}
+.row2f {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
 }
 .finish {
     display: flex;
