@@ -14,6 +14,11 @@
     align-items: center;
     padding: 1%;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+#intronom {
+    margin-top: 8%;
 }
 #main {
     font-weight: bold;
@@ -51,13 +56,18 @@ html {
 }
 #body {
     margin: 0;
-    background-color: rgb(249, 219, 194);
+    background-color: rgb(234, 224, 213);
     font-family: "Markazi Text", serif;
 }
 #bodyf {
     margin: 0;
     background-color: rgb(249, 219, 194);
-    background-image: url("/images/linea.png");
+    background-image: url("../images/linea.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 34%;
+    background-position-y: 700px;
     font-family: "Markazi Text", serif;
 }
 #nom {
@@ -102,7 +112,7 @@ html {
     display:flex;
     justify-content: center;
     padding: 2%;
-    background-color: rgb(210, 176, 162);
+    background-color: rgb(208, 178, 160);
 }
 .row5 {
     margin: 2%;
@@ -115,12 +125,13 @@ html {
 }
 #columns {
     border: solid rgb(159, 154, 127);
+    background-color: rgb(159, 154, 127,.5);
     border-radius: 2%; 
     margin: 1%;
     padding: 2%;
 }
 #text1m {
-    background-color: rgb(210, 176, 162);
+    background-color: rgb(208, 178, 160);
     border-radius: 10px;
     padding: 1%;
 }
@@ -135,13 +146,13 @@ html {
     justify-content: flex-end;
 }
 #a2 {
-    background-color: rgb(210, 176, 162);
+    background-color: rgb(208, 178, 160);
 }
 #a4 {
-    background-color: rgb(210, 176, 162);
+    background-color: rgb(208, 178, 160);
 }
 #b2 {
-    background-color: rgb(210, 176, 162);
+    background-color: rgb(208, 178, 160);
 }
 #percent {
     font-weight: bolder;
@@ -169,11 +180,31 @@ html {
     display: flex;
     justify-content: flex-start;
     margin: 2%;
+    background-color: rgb(208, 178, 160,.5);
+    padding: 1%;
+    margin-right: 50%;
+    border-radius: 20px;
 }
 .row2f {
     display: flex;
     justify-content: flex-end;
     margin: 2%;
+    background-color: rgb(208, 178, 160,.5);
+    padding: 1%;
+    margin-left: 50%;
+    border-radius: 20px;
+}
+#seleccio {
+    background-color: rgb(159, 154, 127);
+    padding: 10px;
+    border-radius: 10px;
+}
+#sumbit {
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 25px;
+    justify-content: center;
 }
 .finish {
     display: flex;
@@ -207,7 +238,7 @@ html {
 }
 .input {
     width: 100%;
-
+    padding: 10px 80px;
 }
 #contras {
     display: flex;
