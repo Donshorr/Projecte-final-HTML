@@ -1,0 +1,279 @@
+.login {
+    background-color: rgb(89, 89, 89);
+    padding: 1%;
+    border-radius: 5px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+.logo {
+    background-color: rgb(51, 49, 46);
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+img {
+    margin: 2%;
+}
+#intronom {
+    margin-top: 8%;
+}
+.mascota {
+    margin-bottom: -110%;
+}
+#seleccio {
+    font-weight: bold;
+    background-color: rgb(159, 154, 127);
+    padding: 1%;
+    border-radius: 5px;
+}
+img {
+    height: 50%;
+    width: 100%;
+}
+.imatges {
+    width: 300%;
+    padding: 2%;
+}
+html {
+    scroll-behavior: smooth;
+}
+#mainh {
+    background-image: url(../images/biografía.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+}
+#afih {
+    background-image: url(../images/aficions.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#futh {
+    background-image: url(../images/futur.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#mash {
+    background-image: url(../images/pets.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.banner {
+    padding: 13%;
+    color: rgb(247, 244, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 300%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: "DM Serif Text", serif;
+}
+.header {
+    font-family: "DM Serif Text", serif;
+}
+#body {
+    margin: 0;
+    background-color: rgb(234, 224, 213);
+    font-family: "Markazi Text", serif;
+}
+#bodyf {
+    margin: 0;
+    background-color: rgb(249, 219, 194);
+    background-image: url("../images/linea.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 27%;
+    background-position-y: 55%;
+    font-family: "Markazi Text", serif;
+}
+#nom {
+    margin-bottom: -2%;
+}
+#button {
+    margin-top: 5%; 
+    font-size:75%;
+}
+.text{
+    padding: 2%;
+    font-size: 2.5rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(51, 49, 46);
+}
+.row1 {
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.row2 {
+    margin: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.row3 {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.row4 {
+    margin: 2%;
+    display:flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: rgb(208, 178, 160);
+}
+.row5 {
+    margin: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid rgb(159, 154, 127);
+    background-color: rgb(159, 154, 127,.5);
+}
+.columns {
+    border: solid rgb(159, 154, 127);
+    background-color: rgb(159, 154, 127,.5);
+    border-radius: 2%; 
+    margin: 1%;
+    padding: 2%;
+}
+#text1m {
+    background-color: rgb(208, 178, 160);
+    border-radius: 10px;
+    padding: 1%;
+}
+#img1m {
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+#img2m {
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+#a2 {
+    background-color: rgb(208, 178, 160);
+}
+#a4 {
+    background-color: rgb(208, 178, 160);
+}
+#b2 {
+    background-color: rgb(208, 178, 160);
+}
+#percent {
+    font-weight: bolder;
+    font-size: 250%;
+}
+.sociallogo {
+    width: 25px;
+    height: 25px;
+}
+.social {
+    margin: 10px;
+}
+#infringement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#longtext {
+    font-size: 100%;
+    margin: 2%;
+    color: white;
+    width: 50%;
+}
+.row1f {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2%;
+    background-color: rgb(208, 178, 160,.5);
+    padding: 1%;
+    margin-right: 50%;
+    border-radius: 20px;
+}
+.row2f {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2%;
+    background-color: rgb(208, 178, 160,.5);
+    padding: 1%;
+    margin-left: 50%;
+    border-radius: 20px;
+}
+#sumbit {
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 25px;
+    justify-content: center;
+}
+.finish {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(51, 49, 46);
+}
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+#copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.forum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputbox {
+    width: 25%;
+    display: flex;
+}
+.input {
+    width: 100%;
+    padding: 10px 80px;
+}
+#contras {
+    display: flex;
+    margin: 3%;
+    font-size: 125%;
+}
+#boton {
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 2%;
+    background-color: rgb(159, 154, 127);
+    border-radius: 10px;
+    border-color: white;
+}
